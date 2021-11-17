@@ -1,10 +1,12 @@
 import React from 'react'
+import NewMeetUpForm from '../components/meetups/NewMeetUpForm'
 
 function NewMeetUp() {
     return (
-        <div>
-            this is a new meet up page 
-        </div>
+        <section>
+            <h1>Add New Meetup</h1>
+            <NewMeetUpForm />
+        </section>
     )
 }
 
